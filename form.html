@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<fieldset>
+<legend>Basic Information</legend>
+<form autocomplete = "on">
+
+<font color="red">* Required fields</font>
+
+<br>First Name:<br>
+<input type = "text" name = "first name"> <font color="red">*</font>
+<br>Last Name:<br>
+<input type = "text" name = "last name"> <font color="red">*</font>
+<br>Nickname:<br>
+<input type = "text" name = "nickname">
+<br>Contact Number:<br>
+<input type = "text" name = "contact"> Ex: 09273270296 <font color="red">*</font>
+<br>Email Address:<br>
+<input type = "text" name = "email"> <font color="red">*</font>
+<br>Gender: <font color="red">*</font><br> 
+<input type = "radio" name = "male">Male
+<input type = "radio" name = "female">Female
+<br>Birthday:<br>
+<input type = "date" name = "bday">
+<br>Age:<br>
+<input type="number" name="age" min="1" max="99">
+</form>
+
+</fieldset>
+<br>
+<fieldset>
+<legend>Personal Information</legend>
+<form>
+<br>Relationship Status:<br>
+<input type = "radio" name = "sex" value = "single" checked>Single<br>
+<input type = "radio" name = "sex" value = "inarelationship">In a Relationship<br>
+<input type = "radio" name = "sex" value = "complicated">It's complicated!<br>
+<input type = "radio" name = "sex" value = "pinaaasa">Pinaasa<br>
+<input type = "radio" name = "sex" value = "umaasa">Umaasa<br>
+</form>
+</fieldset>
+
+<br>
+<fieldset>
+<br>
+<legend>Skills <font color="red">*</font></legend> 
+<form>
+<input type="checkbox" name="webdev" value="webdev"> Web Development
+<br>
+<input type="checkbox" name="gamedev" value="gamedev"> Game Development
+<br>
+<input type="checkbox" name="DAP" value="DAP"> Desktop Application Development
+<br>
+<input type="checkbox" name="graphic" value="graphic"> Graphic Design
+<br>
+<input type="checkbox" name="videdit" value="videdit"> Video Editing
+<br>
+<input type="checkbox" name="photograph" value="photography"> Photography
+<br>
+<input type="checkbox" name="film" value="film"> Film
+<br>
+<input type="checkbox" name="net" value="networks"> Networks
+<br>
+<input type="checkbox" name="project" value="projectmanagement"> Project Management
+<br>
+<input type="checkbox" name="photograph" value="photography"> Other: <input type = "text" name = "other">
+<br>
+
+</form>
+</fieldset>
+
+<br>
+<button type="button" onclick="alert('Successfully submitted!')">Submit</button>
+<br>
+</body>
+</html>
